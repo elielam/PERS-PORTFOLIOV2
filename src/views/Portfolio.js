@@ -6,8 +6,10 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="Portfolio">
+                <div className="About-header">
+                    <p>MY PROJECTS !</p>
+                </div>
                 <div className="Portfolio-content">
-                    <p>Portfolio</p>
                 </div>
             </div>
         );

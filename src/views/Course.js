@@ -6,8 +6,10 @@ class Course extends Component {
     render() {
         return (
             <div className="Course">
+                <div className="About-header">
+                    <p>COURSE !</p>
+                </div>
                 <div className="Course-content">
-                    <p>Course</p>
                 </div>
             </div>
         );

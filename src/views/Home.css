@@ -29,7 +29,8 @@
     color: white;
 }
 .Home-header-title {
-    font-size: 2.5em;
+    font-size: 4em;
+    font-family: primaryFont;
 }
 .Home-header-subtitle {
     font-size: 1.5em;
@@ -136,7 +137,8 @@
 }
 
 .Home-content-thumb-title>p {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: bold;
+    font-family: primaryFont;
     margin: 0;
 }

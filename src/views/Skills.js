@@ -6,8 +6,10 @@ class Skills extends Component {
     render() {
         return (
             <div className="Skills">
+                <div className="About-header">
+                    <p>MY SKILLS !</p>
+                </div>
                 <div className="Skills-content">
-                    <p>Skills</p>
                 </div>
             </div>
         );

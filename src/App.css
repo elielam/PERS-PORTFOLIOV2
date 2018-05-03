@@ -1,3 +1,8 @@
+@font-face {
+    font-family: primaryFont;
+    src: url("vendors/fonts-longreach/DK Longreach.otf");
+}
+
 .App {
   margin: 0 !important;
   padding: 0 !important;
@@ -37,12 +42,12 @@
     background-color: #222;
 }
 
-.App-navbar>a {
+.App-navbar a {
     margin: 0 !important;
     padding: 0 !important;
-    min-width: 20% !important;
-    width: 20% !important;
-    max-width: 20% !important;
+    min-width: 16.66666666666667% !important;
+    width: 16.66666666666667% !important;
+    max-width: 16.66666666666667% !important;
     min-height: 100% !important;
     height: 100% !important;
     max-height: 100% !important;
@@ -52,6 +57,10 @@
     justify-content: center;
 
     color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: primaryFont;
+    text-transform: uppercase;
     background: transparent;
 }
 
@@ -62,7 +71,7 @@
     to {color: #222;}
 }
 
-.App-navbar>a:hover {
+.App-navbar a:hover {
     animation-name: App-navbar-link-hover;
     animation-duration: 2s;
     -webkit-animation-fill-mode: forwards;

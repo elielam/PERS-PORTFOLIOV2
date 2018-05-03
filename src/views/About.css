@@ -11,8 +11,36 @@
     overflow: auto !important;
 }
 
+.About-header {
+    padding: 0;
+    margin: 0;
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 10% !important;
+    height: 10% !important;
+    max-height: 10% !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #222;
+    color: white;
+}
+
+.About-header>p {
+    padding: 0;
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: primaryFont;
+}
+
 .About-content {
-    margin-top: 5% !important;
+    padding: 0;
+    margin: 0;
+    margin-top: 2.5% !important;
     margin-left: 5% !important;
     min-width: 90% !important;
     width: 90% !important;
