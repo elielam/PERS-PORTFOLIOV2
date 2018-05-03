@@ -1,0 +1,142 @@
+.Home {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+
+    overflow: auto !important;
+}
+
+.Home-header {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 50% !important;
+    height: 50% !important;
+    max-height: 50% !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222;
+    color: white;
+}
+.Home-header-title {
+    font-size: 2.5em;
+}
+.Home-header-subtitle {
+    font-size: 1.5em;
+}
+
+.Home-content {
+    margin: 0 !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 50% !important;
+    height: 50% !important;
+    max-height: 50% !important;
+}
+
+.Home-content-container {
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+}
+
+.Home-content-row {
+    margin: 0;
+    padding: 0;
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+}
+
+.Home-content-col {
+    min-height: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+}
+
+.Home-content-thumb {
+    margin: 5% !important;
+    min-width: 90% !important;
+    width: 90% !important;
+    max-width: 90% !important;
+    min-height: 90% !important;
+    height: 90% !important;
+    max-height: 90% !important;
+
+    color: black;
+
+    -moz-box-shadow: 0 0 5px 0 #000000;
+    -webkit-box-shadow: 0 0 5px 0 #000000;
+    -o-box-shadow: 0 0 5px 0 #000000;
+    box-shadow: 0 0 5px 0 #000000;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=NaN, Strength=5);
+}
+
+@keyframes Home-content-thumb-hover {
+    from {color: black;}
+    to {color: grey;}
+}
+
+.Home-content-thumb:hover {
+    animation-name: Home-content-thumb-hover;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.Home-content-thumb-logo {
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 70% !important;
+    height: 70% !important;
+    max-height: 70% !important;
+    border-bottom: 1px dotted lightgray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-content-thumb-logo>span {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Home-content-thumb-title {
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 30% !important;
+    height: 30% !important;
+    max-height: 30% !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-content-thumb-title>p {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0;
+}
